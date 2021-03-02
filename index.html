@@ -12,13 +12,14 @@
 
   <section class="accueil-bg-magic pt-6 pb-16 min-h-500 sm:pb-24 md:min-h-650">
 
-    <nav class="toggle max-w-7xl mx-auto relative flex item-center justify-center">
+    <nav class="xs:hidden sm:hidden md:block max-w-7xl relative flex item-center justify-center">
 
-      <div class="md:left-0 md:inline md:absolute">
-        <img class="ml-4 w-auto h-12" src="ressources/RocketLogo.svg" alt="icone rocket ">
+
+      <div class="md:left-4 md:inline md:absolute">
+        <img class="-mt-3 ml-4 w-auto h-12" src="ressources/RocketLogo.svg" alt="icone rocket ">
       </div>
 
-      <ul class="md:flex md:space-x-10">
+      <ul class="md:flex md:justify-center md:space-x-10">
         <li>
           <a href="#" class="font-medium text-lg text-black-500 hover:yext-gray-900">
             Accueil
@@ -42,7 +43,7 @@
       </ul>
 
       <a href="#"
-        class="mr-4 shadow-md px-6 py-2 border font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:block md:absolute md:right-0">
+        class="mr-4 -mt-8 mr-10 shadow-md px-6 py-2 border font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:block md:absolute md:right-0">
         Login
       </a>
     </nav>
@@ -96,8 +97,6 @@
     
     </nav>
 
-
-    
     <!----- Partie accueil ------>
 
     <div class="mt-32 px-4 text-center sm:mt-28" id="accueil">
@@ -132,7 +131,7 @@
   <section class="relative flex flex-col border-gray-200 border-t lg:flex-row" id="Services">
 
     <div class="px-10 pb-16 pt-118 w-full order-2 text-center md:py-32 lg:w-1/2 lg:order-1">
-      <h2 class="font-extrabold text-gray-900 text-5xl">
+      <h2 class="sm:mt-5 font-extrabold text-gray-900 text-5xl">
         <span>PASSER À L'ACTION</span>
         <br>
         <span class="text-blue-900">Boostez votre SEO</span>
@@ -405,7 +404,7 @@
     <hr class="bloc mx-auto bg-gray-600 h-1 mb-10 w-44">
 
     <form
-      class="grid grid-cols-1 gap-y-6 relative bg-white max-w-3xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 xl:pl-12">
+      class="grid grid-cols-1 gap-y-6 relative bg-white max-w-3xl mx-auto py-16 px-4 sm:px-6 sm:mr-3 sm:ml-3 lg:py-24 lg:px-8 xl:pl-12">
 
       <div>
         <label for="nom" id="nom" class="text-gray-500 mb-2 bloc">Nom complet</label>

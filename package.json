@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "postcss build style.css -o output.css"   
+      "build": "postcss build style.css -o output.css",
+      "watch": "postcss build style.css -o output.css --watch",
+      "production": "cross-env NODE_ENV=production postcss style.css -o output.css"
     },
   "author": "",
   "license": "ISC",
